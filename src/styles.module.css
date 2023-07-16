@@ -1,3 +1,7 @@
 .container {
   display: flex;
 }
+
+.tailwindTimePickerHour {
+  width: 20px;
+}
