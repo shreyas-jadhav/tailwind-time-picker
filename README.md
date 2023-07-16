@@ -20,9 +20,17 @@ yarn add tailwind-time-picker
 
 ## Usage
 
+```js
+import TailwindTimePicker from 'tailwind-time-picker';
+
+<TailwindTimePicker value={value} onChange={(newTime) => setValue(newTime)} />;
+```
 
 ## API / Props
 
+`value` Ex, 10:30, 01:20
+`onChange` function
+`autoFocus` true, false
 
 ## License
 
